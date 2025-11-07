@@ -1,0 +1,19 @@
+[Unit]
+Description=Aliar Cursos - Servidor Web
+After=network.target mysql.service
+Wants=mysql.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/aliar-cursos
+Environment="NODE_ENV=production"
+Environment="PORT=3000"
+ExecStart=/home/ubuntu/aliar-cursos/start-server.sh
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
