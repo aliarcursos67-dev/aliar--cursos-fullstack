@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1760986633796,
+      "tag": "0000_puzzling_ben_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1760986783217,
+      "tag": "0001_jazzy_bloodstorm",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1761653190538,
+      "tag": "0002_common_imperial_guard",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1762513349523,
+      "tag": "0003_oval_sleepwalker",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1762517920322,
+      "tag": "0004_jazzy_spectrum",
+      "breakpoints": true
+    }
+  ]
+}
